@@ -1,5 +1,5 @@
 import React from 'react';
-import primeMovie from './images/oMeninoQueDescobriuOVento.jpg';
+import primeMovie from './images/primetimemovie.jpg';
 
 
 import { makeStyles } from '@material-ui/core/styles';

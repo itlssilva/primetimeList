@@ -1,5 +1,5 @@
 import React from 'react';
-import LegoCard from './card-lego';
+import Movie1Card from './card-movie1';
 import ThundercatsCard from './card-thundercats';
 import BatmanAnimatedCard from './card-batmanAserieAnimada';
 import Serie1 from './card-serie1';
@@ -49,7 +49,7 @@ export default function SabadoList() {
                         <div className={classes.marginTop10}><BatmanAnimatedCard /></div>
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <div><LegoCard /></div>
+                        <div><Movie1Card /></div>
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <div><Serie1 /></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import imgLego from './images/umaAventuraLego2.jpg';
+import imgMovie1 from './images/imgMovie1.jpg';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
     },
   });
 
-  export default function LegoCard() {
+  export default function Movie1Card() {
     const classes = useStyles();
   
     return (
@@ -27,7 +27,7 @@ const useStyles = makeStyles({
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image= { imgLego }
+            image= { imgMovie1 }
             title="Contemplative Reptile"
           />
           <CardContent>

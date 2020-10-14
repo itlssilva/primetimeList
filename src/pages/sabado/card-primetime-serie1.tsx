@@ -1,5 +1,5 @@
 import React from 'react';
-import primeserie1 from './images/Lovecraft108.jpeg';
+import primeserie1 from './images/primetimeserie.jpeg';
 
 
 import { makeStyles } from '@material-ui/core/styles';

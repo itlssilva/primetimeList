@@ -1,5 +1,5 @@
 import React from 'react';
-import serie1 from './images/theWalkingDead3x12.jpg';
+import serie1 from './images/serie1.jpg';
 
 
 import { makeStyles } from '@material-ui/core/styles';
