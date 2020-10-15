@@ -27,6 +27,8 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
+const dia = `19 de Outubro`;
+
 export default function DomingoList() {
     const classes = useStyles();
 
@@ -36,7 +38,7 @@ export default function DomingoList() {
                 <Grid container spacing={1}>
                     <Grid item xs={12} sm={12}>
                         <Box bgcolor="#ff3d00" color="primary.contrastText" p={2} textAlign="center">
-                            <Typography variant="h4" component="h2">Segunda - 12 de Outubro</Typography>
+                            <Typography variant="h4" component="h2">Segunda - {dia}</Typography>
                         </Box>
                     </Grid>
                     {/* <Grid item xs={12} sm={6}>

@@ -4,6 +4,7 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Box, Container, Grid, Typography } from '@material-ui/core';
 
+import Home from './pages/Home';
 import Sabado from './pages/sabado';
 import Domingo from './pages/domingo';
 import Segunda from './pages/segunda';
@@ -34,14 +35,18 @@ function AppRouter() {
             <Grid item xs={12} sm={12}>
               <Box textAlign="center">
                 <div className={classes.botoes}>
-                  <Button variant="contained" href="/">Home</Button>
+                  <Button variant="contained" href="/home">Home</Button>
                   <Button variant="contained" color="primary" href="/sabado">Sábado</Button>
                   <Button variant="contained" color="primary" href="/domingo">Domigo</Button>
-                  <Button variant="contained" color="secondary" href="/segunda">Segunda</Button>
-                  <Route path="/" />
+                  {/* <Button variant="contained" color="secondary" href="/segunda">Segunda</Button>                   */}
+                </div>                
+              </Box>
+              <Box>
+                <div>
+                  <Route path="/home" component={Home} />
                   <Route path="/sabado/" component={Sabado} />
                   <Route path="/domingo/" component={Domingo} />
-                  <Route path="/segunda/" component={Segunda} />
+                  {/* <Route path="/segunda/" component={Segunda} /> */}
                 </div>
               </Box>
             </Grid>

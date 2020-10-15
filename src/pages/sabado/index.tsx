@@ -32,6 +32,8 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
+const dia = `17 de Outubro`;
+
 export default function SabadoList() {
     const classes = useStyles();
 
@@ -41,7 +43,7 @@ export default function SabadoList() {
                 <Grid container spacing={1}>
                     <Grid item xs={12} sm={12}>
                         <Box bgcolor="#ff3d00" color="primary.contrastText" p={2} textAlign="center">
-                            <Typography variant="h4" component="h2">Sábado - 10 de Outubro</Typography>
+                            <Typography variant="h4" component="h2">Sábado - {dia}</Typography>
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={6}>

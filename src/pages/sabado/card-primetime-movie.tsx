@@ -43,16 +43,7 @@ const useStyles = makeStyles({
                 20:00 | 1h 53min | Dramas políticos
             </Typography>
           </CardContent>
-        </CardActionArea>
-        {/* <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions> */}
-        
+        </CardActionArea>        
       </Card>
       
     );

@@ -35,7 +35,7 @@ const useStyles = makeStyles({
                 Lovecraft Country
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Episódio 1x08 - Jig-a-Bobo
+                Episódio 1x09 - Rewind 1921
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
                 22:00

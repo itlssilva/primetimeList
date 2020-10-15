@@ -35,7 +35,7 @@ const useStyles = makeStyles({
               ThunderCats
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              1.02 - Aliança Profana
+              1.03 - Aliança Profana
             </Typography>
           </CardContent>
         </CardActionArea>

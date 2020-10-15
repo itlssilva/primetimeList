@@ -35,7 +35,7 @@ const useStyles = makeStyles({
               Batman: A Série Animada
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                1.18 - Cuidado Com o Fantasma Cinzento
+                1.19 - O Profeta do Juizo Final
             </Typography>
           </CardContent>
         </CardActionArea>
