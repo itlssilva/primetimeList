@@ -15,7 +15,7 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 390,
+      height: 350,
     },
   });
 
@@ -32,16 +32,18 @@ const useStyles = makeStyles({
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-                Star Wars: Episódio I – A Ameaça Fantasma
+                Star Wars: Episódio II – Ataque dos Clones
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o 
-                planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso 
-                menino e decidem treiná-lo para se tornar um Jedi. Mas o tempo irá revelar que as 
-                coisas nem sempre são o que aparentam ser.
+                Dez anos após a tentativa frustrada de invasão do planeta Naboo, 
+                Obi-Wan Kenobi (Ewan McGregor), Anakin Skywalker (Hayden Christensen) e 
+                Padmé Amidala (Natalie Portman) estão juntos novamente. 
+                Destacados para proteger a agora senadora Amidala, que tem 
+                sua vida ameaçada por facções separatistas da República, que ameaçam desencadear uma 
+                guerra civil intergalática.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                2h 16min | Ficção, Ação
+                2h 22min | Ficção, Ação
             </Typography>
           </CardContent>
         </CardActionArea>

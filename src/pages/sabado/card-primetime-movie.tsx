@@ -1,5 +1,5 @@
 import React from 'react';
-import primeMovie from './images/primetimemovie.jpg';
+import primeMovie from './../../shared/the-movies.png';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,6 +17,9 @@ const useStyles = makeStyles({
     media: {
       height: 330,
     },
+    minCardText: {
+      minHeight: 101,
+    },
   });
 
   export default function Serie1Card() {
@@ -30,17 +33,15 @@ const useStyles = makeStyles({
             image= { primeMovie }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h5" component="h2">
-                O Menino que Descobriu o Vento
+              Título Filme
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Inspirado por um livro de ciências, um garoto constrói uma turbina eólica para salvar seu vilarejo da
-                fome.
-                Baseado em uma história real.
+              Filme primetime.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                20:00 | 1h 53min | Dramas políticos
+              20:00 | 2h 00min | Dramas políticos
             </Typography>
           </CardContent>
         </CardActionArea>        

@@ -1,5 +1,5 @@
 import React from 'react';
-import imgMovie1 from './images/imgMovie1.jpg';
+import imgMovie1 from './../../shared/the-movies.png';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,6 +17,9 @@ const useStyles = makeStyles({
     media: {
       height: 232,
     },
+    minCardText: {
+      minHeight: 280,
+    },
   });
 
   export default function Movie1Card() {
@@ -30,24 +33,15 @@ const useStyles = makeStyles({
             image= { imgMovie1 }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h5" component="h2">
-              Uma Aventura Lego 2
+              Título do Filme
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Cinco anos após os eventos do primeiro filme, a batalha contra inimigos alienígenas faz com que a
-                cidade Lego torne-se Apocalipsópolis, em um futuro distópico onde nada mais é incrível. Neste
-                contexto,
-                Emmet constrói uma casa para que possa viver ao lado de Lucy, mas ela ainda o considera ingênuo
-                demais.
-                Quando um novo ataque captura não apenas Lucy, mas também Batman, Astronauta, UniKitty e o pirata,
-                levando-os ao sistema planetário de Manar, cabe a Emmet construir uma espaçonave e partir em seu
-                encalço.
-                No caminho ele encontra Rex Perigoso,
-                um navegante solitário que decide ajudá-lo em sua jornada.
+                Filme aventura/ animação.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                1h 48min | Animação, Aventura
+                2h 00min | Animação, Aventura
             </Typography>
           </CardContent>
         </CardActionArea>

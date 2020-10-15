@@ -35,7 +35,7 @@ const useStyles = makeStyles({
                 The Walking Dead
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Episódio 3x13
+                Episódio 4x4 - Indifference
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
                 17:45
