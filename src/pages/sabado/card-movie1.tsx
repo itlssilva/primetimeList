@@ -1,5 +1,5 @@
 import React from 'react';
-import imgMovie1 from './../../shared/the-movies.png';
+import imgMovie1 from './images/imgMovie1.jpg';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 232,
+      height: 233,
     },
     minCardText: {
       minHeight: 280,
@@ -35,13 +35,15 @@ const useStyles = makeStyles({
           />
           <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h5" component="h2">
-              Título do Filme
+              Angry Birds 2 - O Filme
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Filme aventura/ animação.
+              Os raivosos passarinhos que não voam e os porquinhos conspiradores levam sua briga 
+              para outro nível quando surge uma nova ameaça que coloca ambas as Ilhas dos Porcos e 
+              dos Pássaros em perigo.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                2h 00min | Animação, Aventura
+                1h 37min | Animação, Aventura
             </Typography>
           </CardContent>
         </CardActionArea>

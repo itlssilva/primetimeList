@@ -1,5 +1,5 @@
 import React from 'react';
-import primeMovie from './../../shared/the-movies.png';
+import primeMovie from './images/primetimemovie.jpg';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
       maxWidth: 800,
     },
     media: {
-      height: 330,
+      height: 290,
     },
     minCardText: {
       minHeight: 101,
@@ -35,13 +35,16 @@ const useStyles = makeStyles({
           />
           <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h5" component="h2">
-              Título Filme
+              Entre Facas e Segredos
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Filme primetime.
+              Depois de fazer 85 anos, Harlan Thrombey, um famoso escritor de histórias policiais,
+              é encontrado morto. Contratado para investigar o caso, o detetive Benoit Blanc descobre que,
+              entre os funcionários misteriosos e a família conflituosa de Harlan, todos podem ser
+              considerados suspeitos do crime.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              20:00 | 2h 00min | Dramas políticos
+              20:00 | 2h 10min | Policial, Drama
             </Typography>
           </CardContent>
         </CardActionArea>        
