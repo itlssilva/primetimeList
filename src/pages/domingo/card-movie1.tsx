@@ -32,18 +32,18 @@ const useStyles = makeStyles({
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-                Star Wars: Episódio II – Ataque dos Clones
+              Star Wars: Episódio II – Ataque dos Clones
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Dez anos após a tentativa frustrada de invasão do planeta Naboo, 
-                Obi-Wan Kenobi (Ewan McGregor), Anakin Skywalker (Hayden Christensen) e 
-                Padmé Amidala (Natalie Portman) estão juntos novamente. 
-                Destacados para proteger a agora senadora Amidala, que tem 
-                sua vida ameaçada por facções separatistas da República, que ameaçam desencadear uma 
-                guerra civil intergalática.
+              Dez anos após a tentativa frustrada de invasão do planeta Naboo,
+              Obi-Wan Kenobi (Ewan McGregor), Anakin Skywalker (Hayden Christensen) e
+              Padmé Amidala (Natalie Portman) estão juntos novamente.
+              Destacados para proteger a agora senadora Amidala, que tem
+              sua vida ameaçada por facções separatistas da República, que ameaçam desencadear uma
+              guerra civil intergalática.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                2h 22min | Ficção, Ação
+              14:00 | 2h 22min | Ficção, Ação
             </Typography>
           </CardContent>
         </CardActionArea>

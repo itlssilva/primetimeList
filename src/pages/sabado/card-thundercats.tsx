@@ -37,6 +37,9 @@ const useStyles = makeStyles({
             <Typography variant="body2" color="textSecondary" component="p">
               1.03 - Berbils
             </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              14:00 | 30min | Animação, Aventura
+            </Typography>
           </CardContent>
         </CardActionArea>
         {/* <CardActions>

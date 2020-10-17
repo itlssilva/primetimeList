@@ -4,10 +4,10 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Box, Container, Grid, Typography } from '@material-ui/core';
 
-import Home from './pages/Home';
-import Sabado from './pages/sabado';
-import Domingo from './pages/domingo';
-import Segunda from './pages/segunda';
+import Home from '../src/pages/Home/';
+import Sabado from '../src/pages/sabado/';
+import Domingo from './pages/domingo/';
+import Segunda from '../src/pages/segunda/';
 import { eventNames } from "cluster";
 
 const useStyles = makeStyles((theme: Theme) =>

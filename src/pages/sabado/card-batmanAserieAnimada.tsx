@@ -35,7 +35,10 @@ const useStyles = makeStyles({
               Batman: A Série Animada
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                1.19 - O Profeta do Juizo Final
+              1.19 - O Profeta do Juizo Final
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              14:30 | 30min | Animação, Aventura
             </Typography>
           </CardContent>
         </CardActionArea>

@@ -43,7 +43,7 @@ const useStyles = makeStyles({
               dos Pássaros em perigo.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                1h 37min | Animação, Aventura
+              15:00 | 1h 37min | Animação, Aventura
             </Typography>
           </CardContent>
         </CardActionArea>
