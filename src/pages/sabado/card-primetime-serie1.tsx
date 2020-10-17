@@ -38,7 +38,7 @@ const useStyles = makeStyles({
                 Episódio 1x09 - Rewind 1921
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                22:00
+                23:15
             </Typography>
           </CardContent>
         </CardActionArea>

@@ -19,10 +19,11 @@ const useStyles = makeStyles((theme: Theme) =>
             flexGrow: 1,
             background: '#eeeeee',
         },
-        paper: {
+        paperTitulo: {
             padding: theme.spacing(2),
             textAlign: 'center',
-            color: theme.palette.text.secondary,
+            background: '#ff3d00',
+            color: 'white',
         },
     }),
 );
@@ -37,9 +38,9 @@ export default function DomingoList() {
             <Container maxWidth="md">
                 <Grid container spacing={1}>
                     <Grid item xs={12} sm={12}>
-                        <Box bgcolor="#ff3d00" color="primary.contrastText" p={2} textAlign="center">
+                        <Paper className={classes.paperTitulo}>
                             <Typography variant="h4" component="h2">Domingo - {dia}</Typography>
-                        </Box>
+                        </Paper>
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <div><Movie1Card /></div>

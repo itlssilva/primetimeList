@@ -44,7 +44,7 @@ const useStyles = makeStyles({
               considerados suspeitos do crime.
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              20:00 | 2h 10min | Policial, Drama
+              21:00 | 2h 10min | Policial, Drama
             </Typography>
           </CardContent>
         </CardActionArea>        

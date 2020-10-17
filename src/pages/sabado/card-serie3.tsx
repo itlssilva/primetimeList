@@ -38,7 +38,7 @@ const useStyles = makeStyles({
                 Episódio 4x4 - Indifference
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                18:15
+                18:30
             </Typography>
           </CardContent>
         </CardActionArea>
