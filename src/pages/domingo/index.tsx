@@ -35,21 +35,20 @@ export default function DomingoList() {
 
     return (
         <div className={classes.root}>
-            <Container maxWidth="md">
-                <Grid container spacing={1}>
-                    <Grid item xs={12} sm={12}>
-                        <Paper className={classes.paperTitulo}>
-                            <Typography variant="h4" component="h2">Domingo - {dia}</Typography>
-                        </Paper>
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <div><Movie1Card /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <div><Serie1 /></div>
-                        <div className={classes.marginTop10}><Serie2 /></div>
-                    </Grid>
-                    {/* <Grid item xs={12} sm={6}>
+            <Grid container spacing={1}>
+                <Grid item xs={12} sm={12}>
+                    <Paper className={classes.paperTitulo}>
+                        <Typography variant="h4" component="h2">Domingo - {dia}</Typography>
+                    </Paper>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <div><Movie1Card /></div>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <div><Serie1 /></div>
+                    <div className={classes.marginTop10}><Serie2 /></div>
+                </Grid>
+                {/* <Grid item xs={12} sm={6}>
                         <div><LegoCard /></div>
                     </Grid>
                     <Grid item xs={12} sm={4}>
@@ -67,9 +66,7 @@ export default function DomingoList() {
                     <Grid item xs={12} sm={4}>
                         <div><PrimeSerie1 /></div>
                     </Grid> */}
-                </Grid>
-            </Container>
+            </Grid>
         </div>
-
     );
 }

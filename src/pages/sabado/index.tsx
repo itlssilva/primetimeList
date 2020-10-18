@@ -40,38 +40,35 @@ export default function SabadoList() {
 
     return (
         <div className={classes.root}>
-            <Container maxWidth="md">
-                <Grid container spacing={1}>
-                    <Grid item xs={12} sm={12}>
-                        <Paper className={classes.paperTitulo}>
-                            <Typography variant="h4" component="h2">Sábado - {dia}</Typography>
-                        </Paper>
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <div><ThundercatsCard /></div>
-                        <div className={classes.marginTop10}><BatmanAnimatedCard /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={6}>
-                        <div><Movie1Card /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <div><Serie1 /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <div><Serie2 /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <div><Serie3 /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={8}>
-                        <div><PrimeMovie /></div>
-                    </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <div><PrimeSerie1 /></div>
-                    </Grid>
+            <Grid container spacing={1}>
+                <Grid item xs={12} sm={12}>
+                    <Paper className={classes.paperTitulo}>
+                        <Typography variant="h4" component="h2">Sábado - {dia}</Typography>
+                    </Paper>
                 </Grid>
-            </Container>
+                <Grid item xs={12} sm={6}>
+                    <div><ThundercatsCard /></div>
+                    <div className={classes.marginTop10}><BatmanAnimatedCard /></div>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    <div><Movie1Card /></div>
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <div><Serie1 /></div>
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <div><Serie2 /></div>
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <div><Serie3 /></div>
+                </Grid>
+                <Grid item xs={12} sm={8}>
+                    <div><PrimeMovie /></div>
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                    <div><PrimeSerie1 /></div>
+                </Grid>
+            </Grid>
         </div>
-
     );
 }
