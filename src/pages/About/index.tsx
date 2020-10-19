@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const message = `Programação de Filmes e Séries fim de semana. `;
-const data = `17 e 18 de Outubro. `;
+const data = `24 e 25 de Outubro. `;
 
 export default function CardHome() {
   const classes = useStyles();

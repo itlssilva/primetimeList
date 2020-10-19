@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { CardActions } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -32,26 +33,18 @@ const useStyles = makeStyles({
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-                The Walking Dead
+              The Walking Dead
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Episódio 4x3 - Isolation
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-                17:45
-            </Typography>
+              Episódio 4x6 - Live Bait
+            </Typography>            
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions> */}
-        
-      </Card>
-      
+        <CardActions>
+          <Typography variant="body2" color="textSecondary" component="p">
+            17:45
+          </Typography>
+        </CardActions>        
+      </Card>      
     );
   }

@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { CardActions } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -36,22 +37,14 @@ const useStyles = makeStyles({
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               1.03 - Berbils
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              14:00 | 30min | Animação, Aventura
-            </Typography>
+            </Typography>            
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions> */}
-        
-      </Card>
-      
+        <CardActions>
+          <Typography variant="body2" color="textSecondary" component="p">
+            14:00 | 30min | Animação, Aventura
+          </Typography>
+        </CardActions>        
+      </Card>      
     );
   }

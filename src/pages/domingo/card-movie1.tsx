@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { CardActions } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -15,7 +16,7 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 350,
+      height: 366,
     },
   });
 
@@ -41,22 +42,14 @@ const useStyles = makeStyles({
               Destacados para proteger a agora senadora Amidala, que tem
               sua vida ameaçada por facções separatistas da República, que ameaçam desencadear uma
               guerra civil intergalática.
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              14:00 | 2h 22min | Ficção, Ação
-            </Typography>
+            </Typography>            
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions> */}
-        
-      </Card>
-      
+        <CardActions>
+          <Typography variant="body2" color="textSecondary" component="p">
+            14:00 | 2h 22min | Ficção, Ação
+          </Typography>
+        </CardActions>        
+      </Card>      
     );
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import primeMovie from './images/primetimemovie.jpg';
+import primeMovie from '../../shared/the-movies.png';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { CardActions } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -18,7 +19,7 @@ const useStyles = makeStyles({
       height: 290,
     },
     minCardText: {
-      minHeight: 101,
+      minHeight: 120,
     },
   });
 
@@ -35,20 +36,18 @@ const useStyles = makeStyles({
           />
           <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h5" component="h2">
-              Entre Facas e Segredos
+              Título do Filme
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              Depois de fazer 85 anos, Harlan Thrombey, um famoso escritor de histórias policiais,
-              é encontrado morto. Contratado para investigar o caso, o detetive Benoit Blanc descobre que,
-              entre os funcionários misteriosos e a família conflituosa de Harlan, todos podem ser
-              considerados suspeitos do crime.
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              21:00 | 2h 10min | Policial, Drama
+              Sinopse do Filme.
             </Typography>
           </CardContent>
-        </CardActionArea>        
-      </Card>
-      
+        </CardActionArea>  
+        <CardActions>
+          <Typography variant="body2" color="textSecondary" component="p">
+            21:00 | 2h 00min | Policial, Drama
+          </Typography>
+        </CardActions>       
+      </Card>      
     );
   }

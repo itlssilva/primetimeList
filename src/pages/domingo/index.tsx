@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
-const dia = `18 de Outubro`;
+const dia = `25 de Outubro`;
 
 export default function DomingoList() {
     const classes = useStyles();

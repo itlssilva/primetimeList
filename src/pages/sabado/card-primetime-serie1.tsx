@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { CardActions } from '@material-ui/core';
 
 
 const useStyles = makeStyles({
@@ -35,23 +36,15 @@ const useStyles = makeStyles({
                 Lovecraft Country
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-                Episódio 1x09 - Rewind 1921
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-                23:15
-            </Typography>
+                Episódio 1x10 - Full Circle
+            </Typography>            
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Button size="small" color="primary">
-            Share
-          </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions> */}
-        
-      </Card>
-      
+        <CardActions>
+          <Typography variant="body2" color="textSecondary" component="p">
+            23:15
+          </Typography>
+        </CardActions>        
+      </Card>      
     );
   }

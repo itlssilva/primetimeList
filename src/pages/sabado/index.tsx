@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
-const dia = `17 de Outubro`;
+const dia = `24 de Outubro`;
 
 export default function SabadoList() {
     const classes = useStyles();
