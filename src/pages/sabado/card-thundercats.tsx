@@ -16,7 +16,7 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 160,
+      height: 192,
     },
   });
 
@@ -32,7 +32,7 @@ const useStyles = makeStyles({
             title="Contemplative Reptile"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h6" component="h2">
               ThunderCats
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">

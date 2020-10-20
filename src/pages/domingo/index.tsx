@@ -17,10 +17,10 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         root: {
             flexGrow: 1,
-            background: '#eeeeee',
+            // background: '#eeeeee',
         },
         paperTitulo: {
-            padding: theme.spacing(2),
+            padding: theme.spacing(1),
             textAlign: 'center',
             background: '#ff3d00',
             color: 'white',
@@ -38,16 +38,25 @@ export default function DomingoList() {
             <Grid container spacing={1}>
                 <Grid item xs={12} sm={12}>
                     <Paper className={classes.paperTitulo}>
-                        <Typography variant="h4" component="h2">Domingo - {dia}</Typography>
+                        <Typography variant="h5" component="h5">Domingo - {dia}</Typography>
                     </Paper>
                 </Grid>
+            </Grid>
+            <Grid container spacing={1}>
                 <Grid item xs={12} sm={6}>
-                    <div><Movie1Card /></div>
+                    <Grid container spacing={1}>
+                        <Grid item xs={12} sm={6}>
+                            <div><Movie1Card /></div>
+                        </Grid>
+                        <Grid item xs={12} sm={6}>
+                            <div><Serie1 /></div>
+                            <div className={classes.marginTop10}><Serie2 /></div>
+                        </Grid>
+                    </Grid>
                 </Grid>
-                <Grid item xs={12} sm={6}>
-                    <div><Serie1 /></div>
-                    <div className={classes.marginTop10}><Serie2 /></div>
-                </Grid>
+            </Grid>
+
+            
                 {/* <Grid item xs={12} sm={6}>
                         <div><LegoCard /></div>
                     </Grid>
@@ -66,7 +75,7 @@ export default function DomingoList() {
                     <Grid item xs={12} sm={4}>
                         <div><PrimeSerie1 /></div>
                     </Grid> */}
-            </Grid>
+
         </div>
     );
 }

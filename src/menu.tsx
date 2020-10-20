@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
-      background: '#eeeeee',
+      // background: '#eeeeee',
     },
     botoes: {
       '& > *': {
@@ -30,7 +30,7 @@ function AppRouter() {
   return (
     <Router>
       <div className={classes.root}>
-        <Container maxWidth="md">
+        {/* <Container maxWidth="md"> */}
           <Grid container spacing={1}>
             <Grid item xs={12} sm={12}>
               <Box textAlign="center">
@@ -51,7 +51,7 @@ function AppRouter() {
               </Box>
             </Grid>
           </Grid>
-        </Container>
+        {/* </Container> */}
       </div>
     </Router>
   );

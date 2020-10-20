@@ -16,7 +16,10 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 366,
+      height: 300,
+    },
+    minCardText: {
+      minHeight: 280,
     },
   });
 
@@ -31,8 +34,8 @@ const useStyles = makeStyles({
             image= { imgMovie1 }
             title="Contemplative Reptile"
           />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+          <CardContent className={classes.minCardText}>
+            <Typography gutterBottom variant="h6" component="h2">
               Star Wars: Episódio II – Ataque dos Clones
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">

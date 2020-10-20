@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         root: {
             flexGrow: 1,
-            background: '#eeeeee',
+            // background: '#eeeeee',
         },
         paperTitulo: {
             padding: theme.spacing(2),
@@ -38,7 +38,7 @@ export default function DomingoList() {
             <Grid container spacing={1}>
                 <Grid item xs={12} sm={12}>
                     <Paper className={classes.paperTitulo}>
-                        <Typography variant="h4" component="h2">Segunda - {dia}</Typography>
+                        <Typography variant="h5" component="h5">Segunda - {dia}</Typography>
                     </Paper>
                 </Grid>
                 {/* <Grid item xs={12} sm={6}>

@@ -16,10 +16,10 @@ const useStyles = makeStyles({
       maxWidth: 800,
     },
     media: {
-      height: 290,
+      height: 182,
     },
     minCardText: {
-      minHeight: 120,
+      minHeight: 143,
     },
   });
 
@@ -35,7 +35,7 @@ const useStyles = makeStyles({
             title="Contemplative Reptile"
           />
           <CardContent className={classes.minCardText}>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h6" component="h2">
               Título do Filme
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
