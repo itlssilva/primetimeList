@@ -19,7 +19,7 @@ const useStyles = makeStyles({
       height: 182,
     },
     minCardText: {
-      height: 125,
+      height: 124,
     },
   });
 

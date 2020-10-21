@@ -16,7 +16,10 @@ const useStyles = makeStyles({
       maxWidth: 500,
     },
     media: {
-      height: 120,
+      height: 125,
+    },
+    minCardText: {
+      height: 55,
     },
   });
 
@@ -31,7 +34,7 @@ const useStyles = makeStyles({
             image= { serie1 }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h6" component="h2">
                 The Walking Dead
             </Typography>

@@ -18,6 +18,9 @@ const useStyles = makeStyles({
     media: {
       height: 184,
     },
+    minCardText: {
+      height: 58,
+    },
   });
 
   export default function Serie1Card() {
@@ -31,7 +34,7 @@ const useStyles = makeStyles({
             image= { serie1 }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h6" component="h2">
                 The Walking Dead
             </Typography>

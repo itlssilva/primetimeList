@@ -18,6 +18,9 @@ const useStyles = makeStyles({
     media: {
       height: 184,
     },
+    minCardText: {
+      height: 58,
+    },
   });
 
   export default function BatmanAnimatedCard() {
@@ -31,12 +34,12 @@ const useStyles = makeStyles({
             image= { imgBatmanAnimated }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h6" component="h2">
               Batman: A Série Animada
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              1.19 - O Profeta do Juizo Final
+              1.20 - Perito em Formas Humanas - 1ª Parte
             </Typography>            
           </CardContent>
         </CardActionArea>

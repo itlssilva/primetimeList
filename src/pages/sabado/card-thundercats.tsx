@@ -18,6 +18,9 @@ const useStyles = makeStyles({
     media: {
       height: 184,
     },
+    minCardText: {
+      height: 58,
+    },
   });
 
   export default function ThundercatsCard() {
@@ -31,12 +34,12 @@ const useStyles = makeStyles({
             image= { imgThundercats }
             title="Contemplative Reptile"
           />
-          <CardContent>
+          <CardContent className={classes.minCardText}>
             <Typography gutterBottom variant="h6" component="h2">
               ThunderCats
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              1.03 - Berbils
+              1.04 - Os Escravos do Castelo Plun-Darr
             </Typography>            
           </CardContent>
         </CardActionArea>
